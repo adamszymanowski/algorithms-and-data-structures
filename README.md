@@ -13,7 +13,8 @@ Book list:
 As of now there are no requirements.
 
 Virtual environment:
-`python -m venv algos-ds-venv`
+- `python -m venv algos-ds-venv`
+- activate: `algos-ds-venv\scripts\activate.ps1`
 
 ### Testing
 `python -m unittest`
