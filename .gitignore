@@ -1,0 +1,4 @@
+algos-ds-venv/
+*/__pycache__/
+tests/*/__pycache__/
+book/*/__pycache__/
