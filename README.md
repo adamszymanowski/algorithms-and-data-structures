@@ -22,3 +22,4 @@ Virtual environment:
 
 # References
 - [number of digits](https://mathworld.wolfram.com/NumberLength.html)
+- [merge sort](https://en.wikipedia.org/wiki/Merge_sort)
