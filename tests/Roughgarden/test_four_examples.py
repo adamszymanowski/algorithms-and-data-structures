@@ -37,6 +37,7 @@ class TestCasesForCheckDuplicates(unittest.TestCase):
     def test_true(self):
         self.assertTrue(check_for_duplicates([1,1,1]))
         self.assertTrue(check_for_duplicates([-2,-1,-1,0,0]))
+        self.assertTrue(check_for_duplicates([17, 6,5,4,3,0,1,2,3, 17]))
 
     def test_false(self):
         self.assertFalse([])

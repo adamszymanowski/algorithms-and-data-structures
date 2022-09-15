@@ -40,10 +40,14 @@ def check_for_duplicates(array):
     """
     Input:  array of n integers
     """
+    # uncommnent out iteration counting for revision 
+    #m = 0
     n = len(array)
     for i in range(n):
         for j in range(i+1, n):
+            #m += 1
             if array[i] == array[j]:
+                #print(f"{array} => elems: {n}, iters: {m}, expected_iters: {(n*(n-1))//2}")
                 return True
-
+    #print(f"{array} => elems: {n}, iters: {m}, expected_iters: {(n*(n-1))//2}")
     return False
