@@ -27,3 +27,4 @@ If `pip install` fails add this: `--trusted-host pypi.org --trusted-host pypi.py
 # References
 - [number of digits](https://mathworld.wolfram.com/NumberLength.html)
 - [merge sort](https://en.wikipedia.org/wiki/Merge_sort)
+- [array inversions](https://www.javatpoint.com/inversion-count)
